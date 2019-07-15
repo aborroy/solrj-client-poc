@@ -62,10 +62,6 @@ processedDenies:false
 responseHeader:{status=0,QTime=0}
 initFailures:{}
 status:{alfresco={name=alfresco,instanceDir=/opt/alfresco-search-services/solrhome/alfresco,dataDir=/opt/alfresco-search-services/data/alfresco/,config=solrconfig.xml,schema=schema.xml,startTime=Mon Jul 15 09:42:59 CEST 2019,uptime=1662502,index={numDocs=897,maxDoc=903,deletedDocs=6,indexHeapUsageBytes=-1,version=62,segmentCount=6,current=true,hasDeletions=true,directory=org.apache.lucene.store.NRTCachingDirectory:NRTCachingDirectory(MMapDirectory@/opt/alfresco-search-services/data/alfresco/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7c0e1aca; maxCacheMB=48.0 maxMergeSizeMB=4.0),segmentsFile=segments_9,segmentsFileSizeInBytes=475,userData={commitTimeMSec=1562944490055},lastModified=Fri Jul 12 17:14:50 CEST 2019,sizeInBytes=2552871,size=2.43 MB}}}
-Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
-Scheduler quartzScheduler_$_NON_CLUSTERED paused.
-Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
 ```
 
 Configuration can be set in `application.properties` file in order to start a different SOLR environment.
